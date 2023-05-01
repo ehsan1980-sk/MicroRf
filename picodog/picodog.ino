@@ -2,11 +2,8 @@
 
 #include <WiFi.h>
 #include <Servo.h>
-
-#ifndef STASSID
-#define STASSID "HOME"
-#define STAPSK "castrowifi"
-#endif
+#include "secrets.h"
+ 
 
 const char* ssid = STASSID;
 const char* password = STAPSK;

@@ -3,7 +3,13 @@
 #include <WiFi.h>
 #include <Servo.h>
 #include "secrets.h"
+
+ /* secrets.h */
  
+// #ifndef STASSID
+//#define STASSID ""
+//#define STAPSK ""
+//#endif
 
 const char* ssid = STASSID;
 const char* password = STAPSK;
